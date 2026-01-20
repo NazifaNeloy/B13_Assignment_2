@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TechWave Podcast</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   
   <link rel="stylesheet" href="style.css">
 </head>
@@ -40,6 +40,52 @@
     <a href="#host" class="block text-gray-400">Host</a>
   </div>
 </nav>
+
+<!-- HERO SECTION -->
+
+<header class="relative pt-48 pb-24 px-6 text-center overflow-hidden">
+
+  <img src="./assets/hero-bg.png" alt="" class="absolute inset-0 w-full h-full object-cover z-0 opacity-40">
+
+  <div class="max-w-4xl mx-auto relative z-10">
+    <div class="relative inline-block mb-10">
+  
+      <img src="./assets/hero-circle.png" alt="" class="w-32 h-32 md:w-48 md:h-48 rounded-full shadow-2xl">
+     
+      <img src="./assets/microphone.png" alt="Mic" class="absolute inset-0 m-auto w-16 h-16 md:w-24 md:h-24">
+
+      <span class="absolute top-4 right-2 bg-[#10b981] text-[10px] font-bold px-2 py-0.5 rounded uppercase">New</span>
+    </div>
+
+    <h1 class="text-5xl md:text-7xl font-bold mb-4">TechWave</h1>
+    <p class="text-gray-400 text-sm md:text-base mb-10 max-w-xl mx-auto">
+      Your daily dose of tech insights, productivity hacks, and personal growth
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+      
+      <button class="gradient-bg px-8 py-3 rounded-full font-bold flex items-center gap-2 text-sm">
+        <img src="./assets/spotify.png" class="w-5" alt=""> Listen On Spotify
+      </button>
+
+      <button class="border border-[#10b981] text-[#10b981] px-8 py-3 rounded-full font-bold flex items-center gap-2 text-sm bg-transparent">
+        <img src="./assets/message.png" class="w-5" alt=""> Subscribe
+      </button>
+      
+    </div>
+  </div>
+</header>
+
+
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-20 px-6 max-w-7xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">About The Podcast</h2>
+    <p class="text-gray-400 max-w-3xl mx-auto mb-16 leading-relaxed">
+      TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. 
+      We break down complex topics into digestible insights and explore productivity strategies.
+    </p>
+
 
 </body>
 </html>
