@@ -109,8 +109,9 @@
 
 ## 📂 Submission Format
 
-- **GitHub Repository Link**  https://github.com/NazifaNeloy/B13_A01
+- **GitHub Repository Link** https://github.com/NazifaNeloy/B13_Assignment_2
 
-- **Live Website Link (GitHub Pages)** https://nazifaneloy.github.io/B13_A01/
+- **Live Website Link ** https://nazifaneloy.github.io/B13_Assignment_2/
+
 
 ---
